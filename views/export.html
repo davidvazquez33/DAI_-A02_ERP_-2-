@@ -18,23 +18,96 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="install.html">Instalación</a></li>
                     <li class="nav-item"><a class="nav-link" href="modules.html">Módulos</a></li>
                     <li class="nav-item"><a class="nav-link" href="export.html">Importar/Exportar/Backup</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="conclusion.html">Conclusión</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <main class="container my-5">
-        <h1>Importar, Exportar y Backup en Odoo</h1>
-        <p>Sigue estos pasos para importar, exportar o realizar un backup de tus datos:</p>
-        <img src="../img/export/acceder_configuracion.png" alt="Acceder a configuración" class="img-fluid my-3">
-        <p>Accede al menú de configuración y selecciona la opción de importar/exportar.</p>
-        <img src="../img/export/seleccionar_datos.png" alt="Seleccionar datos" class="img-fluid my-3">
-        <p>Selecciona los datos que deseas importar o exportar y sigue las instrucciones.</p>
-        <img src="../img/export/realizar_backup.png" alt="Realizar backup" class="img-fluid my-3">
-        <p>Para realizar un backup, accede al menú de copias de seguridad y sigue los pasos indicados.</p>
+        <h1 class="text-center mb-4">Importar, Exportar y Backup en Odoo</h1>
+        <p class="text-center">Sigue estos pasos para realizar un backup de tus datos:</p>
+        
+        <!-- Export Steps -->
+        <!-- Paso 1 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">1.</span> Entrar en la dirección que aparece en el buscador, y cuando se nos abra veremos lo siguiente:
+            </p>
+            <img src="../img/export_1.png" alt="Paso 1: Entrar en la dirección" class="img-fluid">
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">2.</span> Cuando hagamos clic en backup se nos abrirá esta pestaña en la que debemos utilizar la master password que antes comenté que sería necesaria más adelante.
+            </p>
+            <img src="../img/export_2.png" alt="Paso 2: Introducir master password" class="img-fluid">
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">3.</span> Al hacer clic en backup nos aparecerá el siguiente mensaje.
+            </p>
+            <img src="../img/export_3.png" alt="Paso 3: Mensaje de backup" class="img-fluid">
+        </div>
+        
+        <!-- Paso 4 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">4.</span> Y en descargas veremos ya nuestro backup.
+            </p>
+            <img src="../img/export_4.png" alt="Paso 4: Ver backup en descargas" class="img-fluid">
+        </div>
+
+        <h2 class="text-center mt-5">Cómo importar el backup</h2>
+        <p class="text-center">Sigue estos pasos para restaurar el backup:</p>
+        
+        <!-- Paso 1 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">1.</span> Para restaurar la base de datos de mi compañero en mi PC, vendremos a esta página y clicaremos en "Restore DATABASE".
+            </p>
+            <img src="../img/import_1.png" alt="Paso 1: Restaurar base de datos" class="img-fluid">
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">2.</span> Una vez aquí tendremos que rellenarlo con nuestra Master Password que había que guardársela, el archivo ZIP de nuestro compañero y un nombre, que no sea igual que el otro para que no se sobrescriba.
+            </p>
+            <img src="../img/import_2.png" alt="Paso 2: Rellenar datos" class="img-fluid">
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">3.</span> Una vez aquí ya vemos las dos bases de datos, la de mi compañero y la mía. Clicamos encima del nombre de la de mi compañero.
+            </p>
+            <img src="../img/import_3.png" alt="Paso 3: Ver bases de datos" class="img-fluid">
+        </div>
+        
+        <!-- Paso 4 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">4.</span> Una vez aquí puedes registrarte con las credenciales de mi compañero o podemos seleccionar otra base de datos clicando en "Seleccionar".
+            </p>
+            <img src="../img/import_4.png" alt="Paso 4: Seleccionar base de datos" class="img-fluid">
+        </div>
+        
+        <!-- Paso 5 -->
+        <div class="text-center my-4 image-container">
+            <p class="fw-bold">
+                <span style="color: #D3BCE5;">5.</span> Y aquí podrás seleccionar la base de datos de quien quieras.
+            </p>
+            <img src="../img/import_5.png" alt="Paso 5: Seleccionar base de datos final" class="img-fluid">
+        </div>
     </main>
     <footer class="text-center py-3">
         <p>Creado por DAI: Izan, David y Aarón</p>
