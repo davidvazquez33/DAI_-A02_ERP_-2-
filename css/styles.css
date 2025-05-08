@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #7142f4; /* Color corporativo de Odoo */
+}
+
+.navbar {
+    background-color: #7142f4 !important; /* Override Bootstrap blue */
+    border-bottom: 2px solid #5a2db3; /* Slightly darker border for contrast */
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust logo size for better visibility */
+}
+
+.navbar-toggler {
+    border-color: white; /* Ensure toggler is visible */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+footer {
+    background-color: #7142f4; /* Color corporativo de Odoo */
+    color: white;
+    padding: 10px 0;
+}
+
+.image-container img {
+    margin: 20px 0; /* Add margin to images */
+    transition: transform 0.3s ease; /* Smooth scaling animation */
+    border: 3px solid #D3BCE5; /* Light purple border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #D3BCE5; /* Light purple border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth scaling animation */
+}
+
+.logo-container img:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+}
+
+header h1 {
+    color: #7142f4; /* Corporate color */
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+header p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #7142f4; /* Corporate color */
+    color: white;
+}
+
+table td {
+    border: 1px solid #ddd;
+}
