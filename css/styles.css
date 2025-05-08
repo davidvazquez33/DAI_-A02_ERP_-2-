@@ -3,12 +3,12 @@ body {
 }
 
 h1 {
-    color: #7142f4; /* Color corporativo de Odoo */
+    color: #7142f4; 
 }
 
 .navbar {
-    background-color: #7142f4 !important; /* Override Bootstrap blue */
-    border-bottom: 2px solid #5a2db3; /* Slightly darker border for contrast */
+    background-color: #7142f4 !important; /* para pasar por encima del Bootstrap blue */
+    border-bottom: 2px solid #5a2db3; 
 }
 
 .nav-link {
@@ -16,11 +16,11 @@ h1 {
 }
 
 .navbar-brand img {
-    height: 40px; /* Adjust logo size for better visibility */
+    height: 40px; /
 }
 
 .navbar-toggler {
-    border-color: white; /* Ensure toggler is visible */
+    border-color: white; 
 }
 
 .navbar-toggler-icon {
@@ -28,20 +28,20 @@ h1 {
 }
 
 footer {
-    background-color: #7142f4; /* Color corporativo de Odoo */
+    background-color: #7142f4; 
     color: white;
     padding: 10px 0;
 }
 
 .image-container img {
-    margin: 20px 0; /* Add margin to images */
-    transition: transform 0.3s ease; /* Smooth scaling animation */
-    border: 3px solid #D3BCE5; /* Light purple border */
-    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; 
+    transition: transform 0.3s ease;
+    border: 3px solid #D3BCE5; 
+    border-radius: 10px; 
 }
 
 .image-container img:hover {
-    transform: scale(1.05); /* Slightly enlarge image on hover */
+    transform: scale(1.05); 
 }
 
 .logo-container {
@@ -52,18 +52,18 @@ footer {
 .logo-container img {
     max-width: 100%;
     height: auto;
-    border: 5px solid #D3BCE5; /* Light purple border */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    transition: transform 0.3s ease; /* Smooth scaling animation */
+    border: 5px solid #D3BCE5; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
 }
 
 .logo-container img:hover {
-    transform: scale(1.1); /* Slightly enlarge image on hover */
+    transform: scale(1.1); 
 }
 
 header h1 {
-    color: #7142f4; /* Corporate color */
+    color: #7142f4;
     font-size: 2.5rem;
     margin-top: 20px;
 }
@@ -75,22 +75,62 @@ header p {
     line-height: 1.6;
 }
 
+.bordered-section {
+    border: 2px solid #7142f4; /* Borde del color corporativo */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.text-justify {
+    text-align: justify; /* Justificar texto */
+}
+
 table {
-    width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    width: 100%;
 }
 
 table th, table td {
-    padding: 10px;
+    padding: 15px; /* Espaciado interno en celdas */
     text-align: left;
+    border: 1px solid #ddd; /* Borde de las celdas */
 }
 
 table th {
-    background-color: #7142f4; /* Corporate color */
+    background-color: #7142f4; /* Color corporativo */
     color: white;
 }
 
 table td {
-    border: 1px solid #ddd;
+    background-color: #fff; /* Fondo blanco */
+}
+
+img.rounded {
+    border-radius: 15px; 
+}
+
+img.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.row {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col-md-6 {
+        margin-bottom: 20px; 
+    }
 }
